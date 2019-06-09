@@ -1,5 +1,9 @@
 # ELK-Stack
-how to use ELK, docker and designing scalable systems big data
+
+
+"ELK" is the acronym for three open source projects: Elasticsearch, Logstash, and Kibana. Elasticsearch is a search and analytics engine. Logstash is a server‑side data processing pipeline that ingests data from multiple sources simultaneously, transforms it, and then sends it to a "stash" like Elasticsearch. Kibana lets users visualize data with charts and graphs in Elasticsearch. The Elastic Stack is the next evolution of the ELK Stack. [reference](https://www.elastic.co/elk-stack)
+
+
 In this section, logs are indexed by filebeat. At first, the log file is logged as apache_logs and in kibana several graphs are drawn in visual form.
 Then, at the end, both the log files are indexed.
 For settings, the address of the log files should be in the filebe file config file.
